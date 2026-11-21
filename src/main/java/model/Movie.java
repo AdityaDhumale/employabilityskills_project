@@ -1,12 +1,12 @@
 package model;
 
 /** Stores information about one movie. */
-public class Movie {
-    private String movieId;
+public class Movie { private String movieId;
     private String title;
     private String genre;
     private int duration;
 
+   
     public Movie(String movieId, String title, String genre, int duration) {
         this.movieId = movieId;
         this.title = title;
